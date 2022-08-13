@@ -1,10 +1,10 @@
-import React from 'react'
+import styles from "./styles";
 
 const App = () => {
   return (
-    <div class="bg-primary w-full overflow-hidden">
-      <div>
-        
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX}`} >
+
       </div>
     </div>
   );
